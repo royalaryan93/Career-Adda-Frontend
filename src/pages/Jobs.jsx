@@ -19,7 +19,7 @@ localStorage.getItem("token")
 );
 async function DeleteJob(id) {
     try {
-        await axios.delete(`https://job-portal-backend-2q57.onrender.com/${id}`,
+        await axios.delete(`https://job-portal-backend-2q57.onrender.com/jobs/${id}`,
         
         {
              headers: {
@@ -40,7 +40,7 @@ async function DeleteJob(id) {
 
             const response = await axios.get(
 
-                "https://job-portal-backend-2q57.onrender.com",
+                "https://job-portal-backend-2q57.onrender.com/jobs",
                  {
                 headers: {
 
