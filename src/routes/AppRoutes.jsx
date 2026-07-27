@@ -4,7 +4,7 @@ import Register from "../pages/Register";
 import Login from "../pages/Login";
 import Home from "../pages/Home";
 import UpdateJob from "../pages/UpdateJob";
-import Jobs from "../pages/jobs";
+import Jobs from "../pages/Jobs";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 
