@@ -1,0 +1,119 @@
+/* Navbar */
+
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 60px;
+
+    background-color: white;
+
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+}
+
+
+/* Logo */
+
+.logo{
+
+    font-size: 28px;
+    font-weight: bold;
+
+    color: #2563eb;
+
+    cursor: pointer;
+
+}
+
+
+/* Navigation Links */
+
+.nav-links{
+
+    display: flex;
+
+    gap: 35px;
+
+    list-style: none;
+
+    align-items: center;
+
+}
+
+
+/* Home & Jobs Links */
+
+.nav-links a{
+
+    text-decoration: none;
+
+    color: black;
+
+    font-size: 18px;
+
+    font-weight: 500;
+
+    transition: 0.3s;
+
+}
+
+.nav-links a:hover{
+
+    color: #2563eb;
+
+}
+
+
+/* About & Contact */
+
+.disabled-link{
+
+    font-size: 18px;
+
+    font-weight: 500;
+
+    color: black;
+
+    cursor: default;
+
+}
+
+
+/* Login Button */
+
+.login-btn{
+
+    padding: 10px 22px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+.login-btn:hover{
+
+    background-color: #1d4ed8;
+
+    transform: translateY(-2px);
+
+}

@@ -1,0 +1,174 @@
+/* ===========================
+   Background
+=========================== */
+
+body{
+    margin:0;
+    padding:0;
+
+    background:
+    linear-gradient(
+        rgba(15,23,42,.70),
+        rgba(15,23,42,.70)
+    ),
+    url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1920&q=80");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* ===========================
+   Featured Jobs Heading
+=========================== */
+
+.jobs-heading{
+
+    text-align:center;
+
+    font-size:44px;
+
+    color:white;
+
+    margin:70px 0 15px;
+
+    font-weight:bold;
+
+}
+
+.jobs-subheading{
+
+    text-align:center;
+
+    color:#1d1e1f;
+
+    font-size:18px;
+
+    max-width:700px;
+
+    margin:0 auto 45px;
+
+    line-height:1.7;
+
+}
+
+/* ===========================
+   Jobs Grid
+=========================== */
+
+.job-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+    padding:0 60px 40px;
+
+}
+
+/* ===========================
+   Job Card
+=========================== */
+
+.job-card{
+
+    background:rgba(255,255,255,.14);
+
+    backdrop-filter:blur(14px);
+
+    -webkit-backdrop-filter:blur(14px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+
+    transition:.35s;
+
+}
+
+.job-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 18px 40px rgba(0,0,0,.45);
+
+}
+
+/* ===========================
+   Job Title
+=========================== */
+
+.job-card h2{
+
+    margin:0 0 12px;
+
+    color:#60a5fa;
+
+    font-size:25px;
+
+}
+
+/* ===========================
+   Company
+=========================== */
+
+.job-card p{
+
+    margin:0;
+
+    color:white;
+
+    font-size:18px;
+
+}
+
+/* ===========================
+   View All Jobs Button
+=========================== */
+
+.view-btn{
+
+    display:block;
+
+    margin:55px auto 80px;
+
+    padding:15px 38px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:linear-gradient(135deg,#2563eb,#3b82f6);
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 10px 25px rgba(37,99,235,.45);
+
+}
+
+.view-btn:hover{
+
+    transform:translateY(-3px) scale(1.05);
+
+    background:linear-gradient(135deg,#1d4ed8,#2563eb);
+
+    box-shadow:0 14px 30px rgba(37,99,235,.6);
+
+}

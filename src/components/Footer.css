@@ -1,0 +1,31 @@
+.footer{
+
+    background:#1e293b;
+
+    color:white;
+
+    text-align:center;
+
+    padding:35px 20px;
+
+    margin-top:80px;
+
+}
+
+.footer h2{
+
+    margin-bottom:10px;
+
+    font-size:28px;
+
+}
+
+.footer p{
+
+    margin:8px 0;
+
+    color:#cbd5e1;
+
+    font-size:16px;
+
+}

@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.auth-page{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:30px;
+
+    background:
+    linear-gradient(
+        rgba(15,23,42,.78),
+        rgba(15,23,42,.78)
+    ),
+    url("https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1920&q=80");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+}
+
+.auth-card{
+
+    width:430px;
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.18);
+
+    border-radius:20px;
+
+    padding:40px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.45);
+
+}
+
+.auth-card h1{
+
+    color:white;
+
+    text-align:center;
+
+    margin-bottom:10px;
+
+    font-size:34px;
+
+}
+
+.auth-card p{
+
+    color:#dbeafe;
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+    font-size:16px;
+
+}
+
+.auth-card input{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:18px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:10px;
+
+    background:rgba(255,255,255,.15);
+
+    color:white;
+
+    font-size:16px;
+
+}
+
+.auth-card input::placeholder{
+
+    color:#cbd5e1;
+
+}
+
+.auth-card input:focus{
+
+    border:1px solid #60a5fa;
+
+    background:rgba(255,255,255,.22);
+
+}
+
+.auth-btn{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:linear-gradient(135deg,#2563eb,#3b82f6);
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.auth-btn:hover{
+
+    transform:translateY(-3px);
+
+    background:linear-gradient(135deg,#1d4ed8,#2563eb);
+
+    box-shadow:0 12px 25px rgba(37,99,235,.45);
+
+}
+
+.auth-footer{
+
+    margin-top:25px;
+
+    text-align:center;
+
+    color:white;
+
+    font-size:15px;
+
+}
+
+.auth-footer span{
+
+    color:#60a5fa;
+
+    cursor:pointer;
+
+    margin-left:5px;
+
+    font-weight:bold;
+
+}
+
+.auth-footer span:hover{
+
+    text-decoration:underline;
+
+}
+
+.logo{
+
+    text-align:center;
+
+    color:white;
+
+    font-size:32px;
+
+    font-weight:bold;
+
+    margin-bottom:25px;
+
+    letter-spacing:1px;
+
+}
