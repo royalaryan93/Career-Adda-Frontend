@@ -17,7 +17,7 @@ function AddJob() {
 
         await axios.post(
 
-            "http://localhost:8081/jobs",
+            "https://job-portal-backend-2q57.onrender.com/jobs",
 
             job,
 
