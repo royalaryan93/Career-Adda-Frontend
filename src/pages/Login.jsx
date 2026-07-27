@@ -20,7 +20,7 @@ function Login() {
 
         const response = await axios.post(
 
-            "https://job-portal-backend-2q57.onrender.com/login",
+            "https://job-portal-backend-2q57.onrender.com/auth/login",
 
             loginData
 
