@@ -20,7 +20,7 @@ function Home() {
         try {
 
             const response = await axios.get(
-                "http://localhost:8081/jobs",
+                "https://job-portal-backend-2q57.onrender.com",
                 {
                     headers: {
                         Authorization: `Bearer ${localStorage.getItem("token")}`
