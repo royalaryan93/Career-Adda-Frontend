@@ -21,7 +21,7 @@ function Register() {
 
             await axios.post(
 
-                "http://localhost:8081/auth/register",
+                "https://job-portal-backend-2q57.onrender.com/auth/register",
 
                 user
 
