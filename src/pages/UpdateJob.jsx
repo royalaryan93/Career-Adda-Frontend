@@ -23,7 +23,7 @@ function UpdateJob() {
 
             const response = await axios.get(
 
-                `http://localhost:8081/jobs/${id}`,
+                `https://job-portal-backend-2q57.onrender.com/jobs/${id}`,
 
                 {
 
@@ -63,7 +63,7 @@ function UpdateJob() {
 
             await axios.put(
 
-                `http://localhost:8081/jobs/${id}`,
+                `https://job-portal-backend-2q57.onrender.com/jobs/${id}`,
 
                 jobs,
 
